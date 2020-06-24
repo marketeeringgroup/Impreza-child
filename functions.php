@@ -18,5 +18,3 @@ function imprezachild_remove_menus()
 {
     remove_submenu_page('themes.php', 'theme-editor.php'); // Theme Editor
 }
-
-/* Mick was here Muaahahah */
