@@ -43,3 +43,12 @@ Text Domain: imprezachild
 .l-footer .uvc-heading-spacer {
     margin: 15px 0 30px;
 }
+
+.l-footer .w-socials-list {
+    margin-left: 1.5rem;
+    margin-top: 20px;
+}
+
+.l-footer .w-socials-item-link:after {
+    font-size: 24px;
+}
