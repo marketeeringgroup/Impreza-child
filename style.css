@@ -8,8 +8,6 @@ Author URI: http://us-themes.com/
 Text Domain: imprezachild
 */
 
-/*Add your own styles here:*/
-
 /* ###################################### 
 #           Table of Contents           #
 #  ######################################
@@ -23,6 +21,12 @@ Text Domain: imprezachild
 /* ###################################### 
 #           Utility Classes             #
 #  #####################################*/
+
+.centered_el {
+    display: block;
+    margin-left : auto;
+    margin-right: auto;
+}
 
 .margin-bottom-0 {
     margin-bottom: 0;
