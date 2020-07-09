@@ -8,6 +8,8 @@ Author URI: http://us-themes.com/
 Text Domain: imprezachild
 */
 
+/*Add your own styles here:*/
+
 /* ###################################### 
 #           Table of Contents           #
 #  ######################################
@@ -15,6 +17,7 @@ Text Domain: imprezachild
 - Utility Classes
 - Site Header
 - Site Footer
+- Call to Action
 
 
 
@@ -22,35 +25,9 @@ Text Domain: imprezachild
 #           Utility Classes             #
 #  #####################################*/
 
-.centered_el {
-    display: block;
-    margin-left : auto;
-    margin-right: auto;
-}
-
 .margin-bottom-0 {
     margin-bottom: 0;
 }
-
-.margin-top-0 {
-    margin-top: 0;
-}
-
-.margin-0 {
-    margin: 0;
-}
-
-.padding-bottom-0 {
-    padding-bottom: 0;
-}
-
-.padding-top-0 {
-    padding-top: 0;
-}
-
-.padding-0 {
-    padding: 0;
-} 
 
 /* ###################################### 
 #              Site Header              #
@@ -75,4 +52,17 @@ Text Domain: imprezachild
 
 .l-footer .w-socials-item-link:after {
     font-size: 24px;
+}
+
+/* ###################################### 
+#            Call to Action             #
+#  #####################################*/
+
+.w-actionbox {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.w-actionbox-text a:hover {
+    color: #fff;
 }
