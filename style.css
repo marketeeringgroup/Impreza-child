@@ -66,3 +66,16 @@ Text Domain: imprezachild
 .w-actionbox-text a:hover {
     color: #fff;
 }
+
+/* ###################################### 
+#              Contact Page             #
+#  #####################################*/
+
+/* Address, Phone, Fax & Address Text */
+.page-id-18 .w-iconbox-text {
+    font-size: 22px;
+}
+/* Specialty Area radio text */
+.page-id-18 .gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li {
+    font-size: 18px;
+}
