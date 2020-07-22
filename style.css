@@ -36,22 +36,45 @@ Text Domain: imprezachild
 /* ###################################### 
 #              Site Footer              #
 #  #####################################*/
+.footer-main {
+	padding-bottom: 0!important;
+}
 
+.sub-footer-row {
+	padding: 10px 45px!important;
+}
+
+/* -- Headings -- */
 .l-footer h2 {
-    font-size: 2.25em;
+    font-size: 1.25em;
 }
 
 .l-footer .uvc-heading-spacer {
-    margin: 15px 0 30px;
+    margin: 10px 0 15px;
+}
+
+/* -- License -- */
+.sub-footer-license {
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+/* -- Social -- */
+.footer-social-items {
+	margin-left: 0px;
 }
 
 .l-footer .w-socials-list {
-    margin-left: 1.5rem;
     margin-top: 20px;
 }
 
 .l-footer .w-socials-item-link:after {
     font-size: 24px;
+}
+
+.w-socials-item-link {
+	line-height: 2em;
+	width: 2em;
 }
 
 /* ###################################### 
@@ -71,11 +94,7 @@ Text Domain: imprezachild
 #              Contact Page             #
 #  #####################################*/
 
-/* Address, Phone, Fax & Address Text */
+/* -- Address, Phone, Fax & Address Text -- */
 .page-id-18 .w-iconbox-text {
     font-size: 22px;
-}
-/* Specialty Area radio text */
-.page-id-18 .gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li {
-    font-size: 18px;
 }
