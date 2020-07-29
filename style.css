@@ -90,6 +90,17 @@ Text Domain: imprezachild
     color: #fff;
 }
 
+/* Let's Get Started */
+@media screen and (max-width: 1000px) {
+    .w-actionbox.controls_right .w-actionbox-text {
+        display: block;
+    }
+
+    .w-actionbox.controls_right .w-actionbox-controls {
+        display: block;
+    }
+}
+
 /* ###################################### 
 #              Contact Page             #
 #  #####################################*/
