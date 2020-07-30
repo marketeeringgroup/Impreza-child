@@ -107,7 +107,7 @@ Text Domain: imprezachild
 }
 
 @media screen and (min-width: 768px) {
-    .sub-footer-social-col > .vc_column-inner {
+    .sub-footer-row .g-cols .sub-footer-social-col > .vc_column-inner {
         padding-left: 1.5rem;
     }
 }
