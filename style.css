@@ -54,10 +54,6 @@ Text Domain: imprezachild
 	padding-bottom: 0!important;
 }
 
-.sub-footer-row {
-	padding: 10px 45px!important;
-}
-
 .footer-main .navigation .g-cols {
     margin: 0;
 }
@@ -74,6 +70,13 @@ Text Domain: imprezachild
     margin-bottom: 30px;
 }
 
+.sub-footer-row .g-cols .vc_column_container {
+    margin-bottom: 10px;
+}
+
+.sub-footer-row > .l-section-h > .g-cols {
+    margin: 0 -1rem;
+}
 /* -- Headings -- */
 .l-footer h2 {
     font-size: 1.25em;
@@ -92,10 +95,6 @@ Text Domain: imprezachild
 /* -- Social -- */
 .footer-social-items {
 	margin-left: 0px;
-}
-
-.l-footer .w-socials-list {
-    margin-top: 20px;
 }
 
 .l-footer .w-socials-item-link:after {
