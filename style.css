@@ -15,6 +15,7 @@ Text Domain: imprezachild
 #  ######################################
 
 - Utility Classes
+- Default Overrides
 - Site Header
 - Site Footer
 - Call to Action
@@ -28,6 +29,19 @@ Text Domain: imprezachild
 .margin-bottom-0 {
     margin-bottom: 0;
 }
+
+/* ###################################### 
+#           Default Overrides           #
+#  #####################################*/
+
+/* Reduce padding for columns */
+.g-cols.type_default > div.has-fill > .vc_column-inner,
+.g-cols.type_default > div > .vc_column-inner {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
 
 /* ###################################### 
 #              Site Header              #
@@ -92,6 +106,24 @@ Text Domain: imprezachild
 
 .w-actionbox-text a:hover {
     color: #fff;
+}
+
+.cta.l-section .padding-0 > .vc_column-inner {
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .w-actionbox.controls_right .w-actionbox-text {
+        display: block;
+    }
+
+    .w-actionbox.controls_right .w-actionbox-controls {
+        display: block;
+    }
+
+    .cta.l-section {
+        padding: 0;
+    }    
 }
 
 /* ###################################### 
