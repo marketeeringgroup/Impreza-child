@@ -117,6 +117,12 @@ Text Domain: imprezachild
     .w-actionbox.controls_right .w-actionbox-controls {
         display: block;
     }
+
+    .cta.l-section {
+        padding: 0;
+    }
+
+
 }
 
 /* ###################################### 
