@@ -45,7 +45,7 @@ Text Domain: imprezachild
 }
 
 .color_footer-bottom {
-    background: #444444;
+    background: #444444!important;
 }
 
 /* -- Headings -- */
