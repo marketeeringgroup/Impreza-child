@@ -58,6 +58,22 @@ Text Domain: imprezachild
 	padding: 10px 45px!important;
 }
 
+.footer-main .navigation .g-cols {
+    margin: 0;
+}
+
+.footer-main .navigation .vc_column_container .vc_column-inner {
+    padding: 0;
+}
+
+.footer-main .navigation .vc_column_container:first-child {
+    margin-bottom: 10px;
+}
+
+.footer-main .navigation .vc_column_container:nth-child(2) .vc_column-inner {
+    margin-bottom: 30px;
+}
+
 /* -- Headings -- */
 .l-footer h2 {
     font-size: 1.25em;
