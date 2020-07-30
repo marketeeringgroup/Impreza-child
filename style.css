@@ -99,7 +99,6 @@ Text Domain: imprezachild
 #            Call to Action             #
 #  #####################################*/
 
-/* Get In Touch */
 .w-actionbox {
     max-width: 1200px;
     margin: auto;
@@ -114,7 +113,6 @@ Text Domain: imprezachild
 }
 
 @media screen and (max-width: 1000px) {
-    /* Let's Get Started */
     .w-actionbox.controls_right .w-actionbox-text {
         display: block;
     }
@@ -125,11 +123,7 @@ Text Domain: imprezachild
 
     .cta.l-section {
         padding: 0;
-    }
-
-    /* Get In Touch */
-    
-
+    }    
 }
 
 /* ###################################### 
