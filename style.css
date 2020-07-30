@@ -44,6 +44,10 @@ Text Domain: imprezachild
 	padding: 10px 45px!important;
 }
 
+.color_footer-bottom {
+    background: #444444;
+}
+
 /* -- Headings -- */
 .l-footer h2 {
     font-size: 1.25em;
