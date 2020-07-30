@@ -58,10 +58,6 @@ Text Domain: imprezachild
 	padding: 10px 45px!important;
 }
 
-.color_footer-bottom {
-    background: #444444;
-}
-
 /* -- Headings -- */
 .l-footer h2 {
     font-size: 1.25em;
@@ -94,6 +90,8 @@ Text Domain: imprezachild
 	line-height: 2em;
 	width: 2em;
 }
+
+
 
 /* ###################################### 
 #            Call to Action             #
