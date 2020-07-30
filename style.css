@@ -30,6 +30,17 @@ Text Domain: imprezachild
     margin-bottom: 0;
 }
 
+/* ###################################### 
+#           Default Overrides           #
+#  #####################################*/
+
+/* Reduce padding for columns */
+.g-cols.type_default > div.has-fill > .vc_column-inner,
+.g-cols.type_default > div > .vc_column-inner {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 
 
 /* ###################################### 
