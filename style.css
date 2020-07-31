@@ -54,14 +54,29 @@ Text Domain: imprezachild
 	padding-bottom: 0!important;
 }
 
-.sub-footer-row {
-	padding: 10px 45px!important;
+.footer-main .navigation .g-cols {
+    margin: 0;
 }
 
-.color_footer-bottom {
-    background: #444444;
+.footer-main .navigation .vc_column_container .vc_column-inner {
+    padding: 0;
 }
 
+.footer-main .navigation .vc_column_container:first-child {
+    margin-bottom: 10px;
+}
+
+.footer-main .navigation .vc_column_container:nth-child(2) .vc_column-inner {
+    margin-bottom: 30px;
+}
+
+.sub-footer-row .g-cols .vc_column_container {
+    margin-bottom: 10px;
+}
+
+.sub-footer-row > .l-section-h > .g-cols {
+    margin: 0 -1rem;
+}
 /* -- Headings -- */
 .l-footer h2 {
     font-size: 1.25em;
@@ -82,10 +97,6 @@ Text Domain: imprezachild
 	margin-left: 0px;
 }
 
-.l-footer .w-socials-list {
-    margin-top: 20px;
-}
-
 .l-footer .w-socials-item-link:after {
     font-size: 24px;
 }
@@ -94,6 +105,13 @@ Text Domain: imprezachild
 	line-height: 2em;
 	width: 2em;
 }
+
+@media screen and (min-width: 768px) {
+    .sub-footer-row .g-cols .sub-footer-social-col > .vc_column-inner {
+        padding-left: 1.5rem;
+    }
+}
+
 
 /* ###################################### 
 #            Call to Action             #
