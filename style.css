@@ -19,7 +19,9 @@ Text Domain: imprezachild
 - Site Header
 - Site Footer
 - Call to Action
-
+- Service Pages
+    - Image/Text Block
+- Contact Page
 
 
 /* ###################################### 
@@ -143,6 +145,12 @@ Text Domain: imprezachild
         padding: 0;
     }    
 }
+
+/* ###################################### 
+#             Service Pages             #
+#  #####################################*/
+
+/* -- Image/Text Blocks -- */
 
 /* ###################################### 
 #              Contact Page             #
