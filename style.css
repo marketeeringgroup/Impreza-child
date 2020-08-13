@@ -152,6 +152,18 @@ Text Domain: imprezachild
 
 /* -- Image/Text Blocks -- */
 
+.service_block {
+
+}
+
+.service_block .service_block-image {
+
+}
+
+.service_block service_block-text {
+    
+}
+
 /* ###################################### 
 #              Contact Page             #
 #  #####################################*/
