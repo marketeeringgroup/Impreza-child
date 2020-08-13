@@ -19,7 +19,9 @@ Text Domain: imprezachild
 - Site Header
 - Site Footer
 - Call to Action
-
+- Service Pages
+    - Image/Text Block
+- Contact Page
 
 
 /* ###################################### 
@@ -142,6 +144,47 @@ Text Domain: imprezachild
     .cta.l-section {
         padding: 0;
     }    
+}
+
+/* ###################################### 
+#             Service Pages             #
+#  #####################################*/
+
+/* -- Image/Text Blocks -- */
+
+.service_block-image .wpb_wrapper,
+.service_block-image .mobile-cover,
+.service_block-image .w-image,
+.service_block-image .w-image-h,
+.service_block-image .mobile-cover img {
+    height: 100%;
+}
+
+.service_block-image .w-image-h {
+    display: flex;
+}
+
+.service_block-image img {
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .service_block-image img {
+        max-height: 400px;
+        object-position: 50% 100%;
+    }
+
+    .moisture_mitigation img {
+        object-position: 50% 30%;
+    }
+
+    .concrete_topping img {
+        object-position: 50% 25%;
+    }
+
+    .service_block-text .vc_column-inner {
+        padding-left: 1em !important;
+    }
 }
 
 /* ###################################### 
